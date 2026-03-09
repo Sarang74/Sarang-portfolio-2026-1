@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 
+
 const NAV_LINKS = ["About", "Skills", "Projects", "Contact"];
 
 const SKILLS = [
