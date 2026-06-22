@@ -12,11 +12,35 @@ const SKILLS = [
 ];
 
 const CERTIFICATIONS = [
-  { org: "Microsoft", certs: ["Power BI Data Analyst Associate", "DP-203 Data Engineering on Azure", "AZ-900 Azure Fundamentals", "Data Engineer Cloud Data Platform"] },
-  { org: "AWS", certs: ["Certified Cloud Practitioner"] },
-  { org: "Snowflake", certs: ["SnowPro Core Certification"] },
-  { org: "Agile", certs: ["Agile Software Development"] },
+  {
+    org: "Microsoft",
+    certs: [
+      { name: "Power BI Data Analyst Associate" },
+      {
+        name: "Microsoft Certified: Azure Data Engineer Associate",
+        link: "https://learn.microsoft.com/api/credentials/share/en-gb/SarangSatpute-3769/9E85CBDC15B4A56A?sharingId=E73F46DA8481B236"
+      },
+      {
+        name: "Microsoft Certified: Azure Fundamentals",
+        link: "https://learn.microsoft.com/api/credentials/share/en-gb/SarangSatpute-3769/6773CB59EC95A921?sharingId=E73F46DA8481B236"
+      },
+      { name: "Data Engineer Cloud Data Platform" }
+    ]
+  },
+  {
+    org: "AWS",
+    certs: [
+      {
+        name: "AWS Certified: Cloud Practitioner",
+        link: "https://cp.certmetrics.com/amazon/en/public/verify/credential/15703a3c30b4453690f9a3b34987263b"
+      }
+    ]
+  },
+  { org: "Snowflake", certs: [{ name: "SnowPro Core Certification" }] },
+  { org: "Agile", certs: [{ name: "Agile Software Development" }] },
 ];
+)
+
 
 const PROJECTS = [
   {
